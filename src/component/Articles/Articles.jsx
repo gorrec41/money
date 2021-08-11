@@ -13,7 +13,10 @@ function Articles() {
                 <Article index='2'/>
                 <p className={st.quote}>
                     *Помните, денежный канал - самый уязвимый. Теряя контроль над ним, вы теряете контроль над собственной жизнью.
-                </p>    
+                </p>   
+                <a href='#ancor' className='linck'>
+                            записаться
+                        </a> 
             </div>
         </section>
     )
