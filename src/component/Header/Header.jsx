@@ -7,7 +7,7 @@ function Header() {
             <div className='container'>
                 <h1 className={st.title}>Ритуал денежного изобилия</h1>
                 <div className={st.arrow}>
-                <a href='#!'>
+                <a href='#12'>
                     <img src={arrowdown} alt='arrow' />
                 </a>
                 </div>

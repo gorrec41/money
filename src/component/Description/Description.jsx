@@ -13,8 +13,6 @@ function Description(props) {
             <p className={st.text}>{tx[props.index]}</p>
         </div>
         
-
     )
 }
-
 export default Description

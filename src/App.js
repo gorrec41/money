@@ -5,6 +5,8 @@ import Articles from './component/Articles/Articles';
 import Insert from './component/Insert/Insert';
 import Leader from './component/Leader/Leader';
 import Desc from './component/Desc/Desc';
+import Slider from './component/Slider/Slider';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Insert />
       <Leader />
       <Desc />
+      <Slider />
     </div>
   );
 }

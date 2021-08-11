@@ -1,11 +1,12 @@
 import st from './Leader.module.css'
 import imgase from './../../img/liader/dmitriy.png'
+import Linck from '../Linck/Link'
 function Leader() {
 
     return (
-        <section className={st.article }>
+        <section className={st.article } id='123'>
             <div className="container">
-               <div className={st.wrap}>
+               <div className={st.wrap} >
                    <div className={st.wrapimg}>
                        <img src={imgase} alt="Дмитрий Ким" />
                    </div>
@@ -22,9 +23,7 @@ function Leader() {
                            <li className={st.item}>
                            Практикующий психотерапевт, энерго-гипнокоуч, психолог, шаман                           </li>
                        </ul>
-                       <a href='#ancor' className='linck'>
-                            записаться
-                        </a>
+                       <Linck lin='#1234'/>
                    </div>
                </div>
                

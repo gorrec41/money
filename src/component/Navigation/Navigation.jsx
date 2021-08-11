@@ -1,5 +1,5 @@
 import st from './Navigation.module.css'
-function Navigation() {
+function Navigation(props) {
 
     return (
         <nav className={st.nav}>
@@ -8,16 +8,16 @@ function Navigation() {
                     <a href='#!' className={st.logo}>Центр развития NEO</a>
                     <ul className={st.list}>
                         <li className={st.item}>
-                            <a href='#!' className={st.link}>О главном</a>
+                            <a href='#12' className={st.link}>О главном</a>
                         </li>
                         <li className={st.item}>
-                            <a href='#!' className={st.link}>Кто я такой</a>
+                            <a href='#123' className={st.link}>Кто я такой</a>
                         </li>
                         <li className={st.item}>
                             <a href='#!' className={st.link}>Отзывы</a>
                         </li>
                         <li className={st.item}>
-                            <a href='#!' className={st.link}>Записаться</a>
+                            <a href='#1234'className={st.link}>Записаться</a>
                         </li>
                     </ul>
                     <div className={st.connection}>
