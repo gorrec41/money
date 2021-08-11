@@ -4,6 +4,10 @@
     height: auto;
     padding: 20px 0;
     background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 .logo{
     color:#000;
