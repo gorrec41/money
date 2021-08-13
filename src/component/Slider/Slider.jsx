@@ -1,11 +1,12 @@
 import React, { useRef,useState } from 'react'
 import cn from 'classnames'
+import arrRevievs from './arrRevievs'
 import st from './Slider.module.css'
 function Slider() {
     const slider = useRef(null)
     const [slid__items, setItems] = useState([1,2,3])
     let position = 0
-    const art=['1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt repellat, accusamus eaque quibusdam asperiores blanditiis voluptas saepe, laudantium dignissimos id quos fuga molestiae cumque provident quae, eos accusantium at.','2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt repellat, accusamus eaque quibusdam asperiores blanditiis voluptas saepe, laudantium dignissimos id quos fuga molestiae cumque provident quae, eos accusantium at.','3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt repellat, accusamus eaque quibusdam asperiores blanditiis voluptas saepe, laudantium dignissimos id quos fuga molestiae cumque provident quae, eos accusantium at.']
+
 
     const prevHandler = () => {
         if (position ===0 ||position>0){
@@ -42,7 +43,7 @@ function Slider() {
                         {slid__items.map(() => {
                             return(
                             <div className={st.slid__item}>
-                               
+                                    {arrRevievs.map}
                             </div>)
                     })}
                     </div>
